@@ -1,0 +1,137 @@
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    background-color: #541B15;
+    justify-content: center;
+  }
+  .title{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-family: 'Jersey 10', cursive;
+    font-size: 65px;
+    color: #E6C057;
+  } 
+
+  .area {
+    display:flex ;
+    width: 600px;
+    height: 280px;
+    justify-content: center;
+  }
+  .button{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    margin-top: 30px;
+    justify-content: center;
+  }
+  .roll{
+    font-family: 'Jersey 10', cursive;
+    width: 200px;
+    height: 60px;
+    background-color: #E6C057;
+    color: #541B15;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 30px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  .start-dice{
+    padding: 12px;
+    background-color: white;
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+    margin: 40px;
+  }
+  .start-temp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-family: 'Jersey 10', cursive;
+  }
+
+  .dice {
+    padding: 14px;
+    background-color: white;
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+    margin: 40px;
+  }
+  .dot{
+    display: block;
+    background-color: black;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+  }
+  .one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .one .dot{
+    position: relative;
+  }
+  .two{
+    display: flex;
+    justify-content: space-between;
+  }
+  .two .dot:nth-of-type(2){
+    align-self:flex-end;
+  }
+  .tree{
+    display:flex;
+    justify-content: space-between
+}
+.tree .dot:nth-of-type(2){
+    align-self: center;
+}
+.tree .dot:nth-of-type(3){
+    align-self:flex-end;
+}
+
+.fourth{
+    display:flex;
+    justify-content: space-between;
+}
+
+.fourth .column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  }
+.fifth{
+    display:flex;
+    justify-content: space-between;
+}
+.fifth .column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.fifth .column:nth-of-type(2) {
+  justify-content: center;
+}
+.center-column {
+  justify-content: center;
+}
+
+
+.sixty{
+  display:flex;
+  justify-content: space-between;
+}
+.sixty .column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
